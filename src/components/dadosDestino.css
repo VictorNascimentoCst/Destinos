@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2d2ff;
+    height: 100vh;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#button {
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px 30px ;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 50px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  #button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: black;
+  }
+
+.dadosPessoais, .dadosDestino   {
+    min-height: 50%;
+    min-width: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px #86868671;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: #6fb9ff;
+    
+}
+
+.dadosDestino .selects {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.selects label {
+    margin-bottom: 2%;
+}
